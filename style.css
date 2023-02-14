@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.navbarbg {
+    background-color: #242A2E;
+    height: 80px;
+}
+
+.navbar .navcontainer {
+    border-bottom: #ffd500 2px solid;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.sidebarbg {
+    background-color: #242A2E;
+}
+
+.offcanvas .closebtn {
+    font-size: 24px;
+    border: #1a2023;
+    outline: none;
+    color: #ffffff;
+}
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+   
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+    color: #ffd500;
+
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link.active {
+    color: #ffd500;
+    font-weight: 700;
+}
+  
+.navbar .navbar-toggler{
+    border: none;
+    color: transparent;
+}
+
+.navbar-toggler span i{
+    font-size: 30px;
+}
+
+.herosection{
+    background-color: #242A2E;
+}
+
+.herosection .herocontainer{
+    padding: 100px 0;
+}
+
+.herosection .heroheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.herosection .heroheading span{
+    color: #ffd500;
+    text-decoration: underline;
+}
+
+.herosection .herodescription{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+.herosection .contactbtn{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #242A2E;
+    background-color: #ffd500;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.herosection .contactbtn:hover{
+   transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.herosection .herolabel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.herosection .herosocial{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.herosection .herosocial:nth-child(1){
+    background-color: #3b5998;
+}
+
+
+.herosection .herosocial:nth-child(2){
+    background: linear-gradient(90deg, #ff4e50, #f923f9);
+}
+
+.herosection .herosocial:nth-child(3){
+    background-color: #1a2023;
+}
+
+.herosection .herosocial:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+/* service section css */
+
+.servicessection{
+    background-color: #1a2023;
+}
+
+.servicessection .servicescontainer{
+    padding: 100px 0;
+}
+
+.servicessection .servicesheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.servicessection .servicesheading span{
+    color: #ffd500;
+    text-decoration: underline;
+}
+
+.servicessection .servicesdescription{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+.servicessection .servicescontainer .card{
+    border: none;
+    padding: 20px;
+}
+
+.servicessection .servicescontainer .card .card-body{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicessection .servicescontainer .card i{
+    font-size: 50px;
+    background-color: #ffd500;
+    color: #1e2229;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.servicessection .servicescontainer .card .servicescardtitle{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.servicessection .servicescontainer .card .servicescarddescription{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+    
+.servicessection .servicescontainer .servicescardodd{
+    background-color: #222b2f
+}
+
+.servicessection .servicescontainer .servicescardeven{
+    background-color: #38464d
+}
+  
+/* about section css  */
+
+.aboutsection{
+    background-color: #242A2E;
+}
+
+.aboutsection .aboutcontainer{
+    padding: 50px 0;
+}
+
+.aboutsection .aboutcontainer .aboutpic{
+    width: 100%;
+    height: 600px;
+    
+}
+    
+.aboutsection .aboutheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.aboutsection .aboutheading span{
+    color: #ffd500;
+    text-decoration: underline;
+}
+
+.aboutsection .aboutdescription{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+.aboutsection .aboutlabel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.aboutsection .aboutsocial{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.aboutsection .aboutsocial:nth-child(1){
+    background-color: #3b5998;
+}
+
+.aboutsection .aboutsocial:nth-child(2){
+    background: linear-gradient(90deg, #ff4e50, #f923f9);
+}
+
+.aboutsection .aboutsocial:nth-child(3){
+    background-color: #1a2023;
+}
+
+.aboutsection .aboutsocial:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+/* reasons section css */
+
+.reasonssection{
+    background-color: #1a2023;
+}
+
+.reasonssection .reasonscontainer{
+    padding: 100px 0;
+}
+
+.reasonssection .reasonsheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.reasonssection .reasonsheading span{
+    color: #ffd400;
+    text-decoration: underline;
+}
+
+.reasonssection .reasonscontainer .card{
+    border: none;
+    padding: 20px;
+}
+
+.reasonssection .reasonscontainer .card .card-body{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasonssection .reasonscontainer .card i{
+    font-size: 50px;
+    background-color: #ffd500;
+    color: #1e2229;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.reasonssection .reasonscontainer .card .reasonscardtitle{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.reasonssection .reasonscontainer .card .reasonscarddescription{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+    
+.reasonssection .reasonscontainer .reasonscardodd{
+    background-color: #222b2f
+}
+
+.reasonssection .reasonscontainer .reasonscardeven{
+    background-color: #38464d
+}
+
+/* portfolio section css */
+
+.portfoliosection{
+    background-color: #1a2023;
+}
+
+.portfoliosection .portfoliocontainer{
+    padding: 100px 0;
+}
+
+.portfoliosection .portfolioheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.portfoliosection .portfolioheading span{
+    color: #ffd400;
+    text-decoration: underline;
+}
+
+.portfoliosection .portfoliodescription{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #cccccc;
+    text-align: center;
+}
+
+.portfoliosection .portfoliocontainer .card{
+    border: none;
+    background-color: #1a2023;
+    border-radius: 20px;
+}
+
+.portfoliosection .portfoliocontainer .card img{
+    border-radius: 20px;
+}
+
+.portfoliosection .portfoliocontainer .card .card-body .portfoliocardtitle{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.portfoliosection .portfoliocontainer .card .card-body .portfoliolink a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffd500;
+    text-decoration: underline
+}   
+
+/* footer section css */
+
+.footersection{
+    background-color: #242A2E;
+}
+
+.footersection .footercontainer{
+    padding: 50px 0;
+}
+
+.footersection .footercontainer .footerheading{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footersection .footercontainer .footerdescription{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f0f3f4;
+}
+
+.footersection .footercontainer .footercontact{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f0f3f4;
+}
+
+.footersection .footercontainer .footercontact i{
+    color: #ffd500; 
+}
+
+.footersection2{
+    background-color: #ffd500;
+}
+    
+.footersection2 .footerheading2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #1a2023;
+}
+
+.footersection2 .footerdescription2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a2023;
+}
