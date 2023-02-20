@@ -459,3 +459,214 @@
     font-weight: 500;
     color: #1a2023;
 }
+
+@media screen and (max-width: 768px){
+    .herosection .herocontainer .heroheading{
+        font-size: 50px;
+    }
+
+    .herosection .herocontainer .herodescription{
+        font-size: 18px;
+    }
+
+    .servicesection .servicecontainer .serviceheading{
+        font-size: 46px;
+    }
+
+    .servicesection .servicecontainer .servicedescription{
+        font-size: 16px;
+    }
+
+    .servicesection .servicecontainer .card{
+        margin-bottom: 30px;
+    }
+
+    .aboutsection .aboutcontainer .aboutheading{
+        font-size: 46px;
+    }
+
+    .aboutsection .aboutcontainer .aboutdescription{
+        font-size: 16px;
+    }
+
+    .reasonssection .reasonscontainer .reasonsheading{
+        font-size: 46px;
+    }
+
+    .reasonssection .reasonscontainer .card{
+        margin-bottom: 30px;
+    }
+
+    .portfoliosection .portfoliocontainer .portfolioheading{
+        font-size: 46px;
+    }
+
+    .portfoliosection .portfoliocontainer .portfoliodescription{
+        font-size: 16px;
+    }
+
+    .portfoliosection .portfoliocontainer .card{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    .herosection .herocontainer .heroheading{
+        font-size: 40px;
+    }
+
+    .herosection .herocontainer .herodescription{
+        font-size: 16px;
+    }
+
+    .servicesection .servicecontainer .serviceheading{
+        font-size: 36px;
+    }
+
+    .servicesection .servicecontainer .servicedescription{
+        font-size: 14px;
+    }
+
+    .servicesection .servicecontainer .card{
+        margin-bottom: 30px;
+    }
+
+    .aboutsection .aboutcontainer .aboutheading{
+        font-size: 36px;
+    }
+
+    .aboutsection .aboutcontainer .aboutdescription{
+        font-size: 14px;
+    }
+
+    .reasonssection .reasonscontainer .reasonsheading{
+        font-size: 36px;
+    }
+
+    .reasonssection .reasonscontainer .card{
+        margin-bottom: 30px;
+    }
+
+    .portfoliosection .portfoliocontainer .portfolioheading{
+        font-size: 36px;
+    }
+
+    .portfoliosection .portfoliocontainer .portfoliodescription{
+        font-size: 14px;
+    }
+
+    .portfoliosection .portfoliocontainer .card{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .herosection .herocontainer .heroheading{
+        font-size: 30px;
+    }
+
+    .herosection .herocontainer .herodescription{
+        font-size: 14px;
+    }
+
+    .servicesection .servicecontainer .serviceheading{
+        font-size: 26px;
+    }
+
+    .servicesection .servicecontainer .servicedescription{
+        font-size: 12px;
+    }
+
+    .servicesection .servicecontainer .card{
+        margin-bottom: 30px;
+    }
+
+    .aboutsection .aboutcontainer .aboutheading{
+        font-size: 26px;
+    }
+
+    .aboutsection .aboutcontainer .aboutdescription{
+        font-size: 12px;
+    }
+
+    .reasonssection .reasonscontainer .reasonsheading{
+        font-size: 26px;
+    }
+
+    .reasonssection .reasonscontainer .card{
+        margin-bottom: 30px;
+    }
+
+    .portfoliosection .portfoliocontainer .portfolioheading{
+        font-size: 26px;
+    }
+
+    .portfoliosection .portfoliocontainer .portfoliodescription{
+        font-size: 12px;
+    }
+
+    .portfoliosection .portfoliocontainer .card{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .herosection .herocontainer .heroheading{
+        font-size: 36px;
+    }
+
+    .herosection .herocontainer .herodescription{
+        font-size: 12px;
+    }
+
+    .servicessection .servicescontainer .servicesheading{
+        font-size: 22px;
+    }
+
+    .servicessection .servicescontainer .servicesdescription{
+        font-size: 10px;
+    }
+
+    .servicessection .servicescontainer .card{
+        margin-bottom: 30px;
+    }
+
+    .aboutsection .aboutcontainer .aboutheading{
+        font-size: 22px;
+    }
+
+    .aboutsection .aboutcontainer .aboutdescription{
+        font-size: 10px;
+    }
+
+    .aboutsection .aboutcontainer .aboutpic{
+        width: 100%;
+        height: 400px;
+    }
+       
+
+    .reasonssection .reasonscontainer .reasonsheading{
+        font-size: 22px;
+    }
+
+    .reasonssection .reasonscontainer .card{
+        margin-bottom: 30px;
+    }
+
+    .portfoliosection .portfoliocontainer .portfolioheading{
+        font-size: 22px;
+    }
+
+    .portfoliosection .portfoliocontainer .portfoliodescription{
+        font-size: 10px;
+    }
+
+    .portfoliosection .portfoliocontainer .card{
+        margin-bottom: 30px;
+    }
+
+}
+
